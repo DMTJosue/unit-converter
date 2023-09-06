@@ -1,0 +1,147 @@
+body{
+    
+    background: linear-gradient(to right ,rgb(187, 187, 238),rgb(248, 201, 201),rgb(226, 151, 226),rgb(196, 153, 196));
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.page{
+    width: 80%;
+    height: 40%;
+    background:linear-gradient(to bottom,#d495cb,#171718);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color: rgb(141, 139, 141);*/
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+    border: 2px solid white;
+}
+
+#titre{
+    background-color: rgb(83, 83, 83);
+    font-family: cursive;
+    font-size: larger;
+    text-align: center;
+    color: white;
+    height: 30%;
+    
+}
+h1{
+    background:linear-gradient(to right,rgb(218, 86, 86),rgb(199, 199, 180),rgb(167, 167, 105),rgb(18, 180, 18),rgb(56, 56, 199));
+    background-size:200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    animation:  5s linear infinite;
+}
+nav li{
+    display: inline-flex;
+    padding-top: 4%;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-bottom: 3%;
+    margin-right: 10%;
+    margin-left: 8%;
+    color: white;
+}
+.menu{
+    display: block;
+}
+.menu img{
+    width: 14%;
+    height: 125px;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: 1px solid rgb(226, 225, 225);
+    border-width: 2.5px;
+    margin-left: 10%;
+    overflow: hidden;
+    
+}
+footer{
+    width: ;
+}
+.section1{
+    margin-top: 5%;
+    padding: 3%;
+}
+
+footer img{
+    width: 2%;
+    height: 28px;
+    padding-left: 3%;
+    padding-right: 0.5%;
+    float:  right ;
+    margin-top: 9%;
+    margin-bottom: 1%;
+}
+footer h2{
+    float: left;
+    margin-top: 9%;
+    margin-bottom: 1%;
+    
+}
+footer h2 .pied_page{
+    font-size: xx-small;
+    font-weight: lighter;
+    
+    
+}
+
+.converter_body{
+    width: 40%;
+    height: 140px;
+    margin: auto;
+    background-color: rgb(71, 71, 71);
+    box-shadow: 0px 0px 2px 1px #cacaca;
+}
+
+#box{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.conv_box{
+    width: 40%;
+    margin: 0%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#equal{
+    margin: 0% 5% 0% 5%;
+    display: inline-block;
+}
+
+#equal p{
+    display: block;
+    transform: translate(10px, 10px);
+}
+
+.converter_title{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+input{
+    height: 25%;
+    text-align: center;
+}
+.input{
+    width: 95.8%;
+    margin-bottom: 20px;
+    height: 25px;
+}
+
+
+
+#inputType,#inputType1,#resultType1,#resultType,#inputType2,#resultType2,#inputType3,#resultType3{
+    padding: 0.3rem 0.3rem;
+    border: 2px solid rgb(238, 166, 166);
+    border-radius: 2%;
+    background: rgb(218, 188, 188);
+    width: 100%;
+}

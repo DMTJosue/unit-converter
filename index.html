@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <br><br>
+        <div class="page">
+            <div id="titre">
+                <h1 > Convertisseur d'unité</h1>
+            </div>
+            <header>
+                <nav>
+                    <ul>
+                        <li>Distance</li>
+                        <li>Masse</li>
+                        <li>Volume</li>
+                    </ul>
+                </nav>
+            </header>
+            <section>
+                <div class="menu">
+                   <img src="image/regle.png" alt="conversion Distance" onclick="compte()">
+                    <img src="image/balance.png" alt="conversion masse" onclick="compte()">
+                    <img src="image/litre.png" alt="conversion Volume" onclick="compte()">
+                    
+                </div>
+            </section >
+            <section id ="converter_b" style="display: none;" >
+                <div   class="converter_body"  >
+                    <h1 class="converter_title">Conversion</h1>
+
+                    <div id="box">
+                        <div class="conv_box">
+                            <input class="input" type="number" placeholder="input" id="input">
+                            <select  id="inputType" name="first-value" >
+                                <option value="km">km</option>
+                                <option value="hm">hm</option>
+                                <option value="dam">dam</option>
+                                <option value="m">m</option>
+                                <option value="dm">dm</option>
+                                <option value="cm">cm</option>
+                                <option value="mm">mm</option>
+                                <option value="mille">mi</option>
+                                <option value="ft">ft</option>
+                                <option value="yd">yd</option>
+                                <option value="t">t</option>
+                                <option value="q">q</option>
+                                <option value="q.">.</option>
+                                <option value="kg">kg</option>
+                                <option value="hg">hg</option>
+                                <option value="dag">dag</option>
+                                <option value="g">g</option>
+                                <option value="dg">dg</option>
+                                <option value="cg">cg</option>
+                                <option value="mg">mg</option>
+                                <option value="µg">µg</option>
+                                <option value="carat">carat</option>
+                                <option value="m3">m<sup>3</sup></option>
+                                <option value="dm3">dm<sup>3</sup></option>
+                                <option value="cm3">cm<sup>3</sup></option>
+                                <option value="hl">hl</option>
+                                <option value="dal">dal</option>
+                                <option value="l">l</option>
+                                <option value="dl">dl</option>
+                                <option value="cl">cl</option>
+                                <option value="ml">ml</option>
+                                <option value="inch3">inch<sup>3</sup></option>
+                                <option value="pied3">pied<sup>3</sup></option>
+                                <option value="yard3">yard<sup>3</sup></option>
+                            </select>
+                        </div>
+    
+                        <div id="equal">
+                            <p>=</p>
+                        </div>
+    
+                        <div class="conv_box">
+                            <input class="input" type="number" placeholder="result" id="result">
+                            <select  id="resultType">
+                                <option value="km">km</option>
+                                <option value="hm">hm</option>
+                                <option value="dam">dam</option>
+                                <option value="m">m</option>
+                                <option value="dm">dm</option>
+                                <option value="cm">cm</option>
+                                <option value="mm">mm</option>
+                                <option value="mi">mi</option>
+                                <option value="in">in</option>
+                                <option value="ft">ft</option>
+                                <option value="yd">yd</option>
+                                <option value="t">t</option>
+                                <option value="q">q</option>
+                                <option value="q.">.</option>
+                                <option value="kg">kg</option>
+                                <option value="hg">hg</option>
+                                <option value="dag">dag</option>
+                                <option value="g">g</option>
+                                <option value="dg">dg</option>
+                                <option value="cg">cg</option>
+                                <option value="mg">mg</option>
+                                <option value="µg">µg</option>
+                                <option value="carat">carat</option>
+                                <option value="m3">m<sup>3</sup></option>
+                                <option value="dm3">dm<sup>3</sup></option>
+                                <option value="cm3">cm<sup>3</sup></option>
+                                <option value="hl">hl</option>
+                                <option value="dal">dal</option>
+                                <option value="l">l</option>
+                                <option value="dl">dl</option>
+                                <option value="cl">cl</option>
+                                <option value="ml">ml</option>
+                                <option value="inch3">inch<sup>3</sup></option>
+                                <option value="pied3">pied<sup>3</sup></option>
+                                <option value="yard3">yard<sup>3</sup></option>
+                                
+                                
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            
+            
+        </div>
+
+        
+        <footer>
+            <div>
+             <h2>Marieme Toure & Josue Da-Matha <span class="pied_page"> reproduction interdite &#169;</span></h2>
+             
+             
+             <img src="image/facebook.jpeg" alt="reseau" title="facebook">
+             <img src="image/instagram1.jpeg" alt="reseau" title="instagram">
+             <img src="image/twitter.png" alt="reseau" title="twitter">
+            </div>
+        </footer>
+        <script src="JavaScript.js"></script>
+    </body>
+</html>
