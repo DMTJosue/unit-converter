@@ -9,7 +9,6 @@ Application de convertisseur d'unité
 $ git clone https://github.com/DMTJosue/unit-converter.git
 $ cd unit-converter
 ```
-
-The app runs at `https://dmtjosue.github.io/unit-converter/`. 
+## 👉 https://dmtjosue.github.io/unit-converter/
 
 <br />
