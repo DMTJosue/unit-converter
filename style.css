@@ -44,7 +44,7 @@ nav li{
     padding-left: 4%;
     padding-bottom: 3%;
     margin-right: 10%;
-    margin-left: 8%;
+    margin-left: 10%;
     color: white;
 }
 .menu{
@@ -62,35 +62,26 @@ nav li{
     
 }
 footer{
-    width: ;
-}
-.section1{
-    margin-top: 5%;
-    padding: 3%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center; 
+    padding: 10px;
 }
 
-footer img{
-    width: 2%;
-    height: 28px;
-    padding-left: 3%;
-    padding-right: 0.5%;
-    float:  right ;
-    margin-top: 9%;
-    margin-bottom: 1%;
-}
-footer h2{
-    float: left;
-    margin-top: 9%;
-    margin-bottom: 1%;
-    
-}
 footer h2 .pied_page{
-    font-size: xx-small;
+    font-size: small;
     font-weight: lighter;
     
     
 }
 
+footer h2 a {
+    
+    color: rgb(83, 83, 83);
+    text-decoration: none;
+
+}
 .converter_body{
     width: 40%;
     height: 140px;
